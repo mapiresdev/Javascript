@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	function pulaLinha(){
+		document.write("<br>");
+	}
+
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var idadeMediaQuandoSeTemFilhos = 28;
+	var anoAtual = 2022;
+	var anoBase = 1500;
+	var qtdeGeracoes = (anoAtual - anoBase) / idadeMediaQuandoSeTemFilhos;
+	var qtdeSeculos = (anoAtual - anoBase);
+
+	document.write("<li><b>Essa é a quantidade de gerações desde o ano de 1.500: </b>");
+	mostra(qtdeGeracoes);
+	pulaLinha();
+
+	document.write("<li><b>Essa é a quantidade de séculos desde o ano de 1.500:</b> ");
+	mostra(qtdeSeculos);
+
+</script>

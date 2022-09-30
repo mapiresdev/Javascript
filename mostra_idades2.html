@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	function pulaLinha(){
+	//Código pula 2 linhas
+		document.write("<br><hr><br>");
+
+	}
+
+	function mostra(frase){
+		document.write("<big>" + frase + "</big>");
+		pulaLinha();
+	}
+
+	var anoBase = 2022;
+	var Marcelo = 31;
+	var Adriano = 66;
+	var Nessinha = 25;
+	var anoBaseMarcelo = 1991;
+	var anoBaseAdriano = 1956;
+	var anoBaseNessinha = 1997;
+
+	mostra("<li>Eu nasci em " + (anoBase - Marcelo) + ", portanto tenho " + (anoBase - anoBaseMarcelo) + " anos");
+	pulaLinha();
+
+	mostra("<li>Adriano nasceu em " + (anoBase - Adriano) + ", portanto tem " + (anoBase - anoBaseAdriano) + " anos");
+	pulaLinha();
+
+	mostra("<li>Nessinha nasceu em " + (anoBase - Nessinha) + ", portanto tem " + (anoBase - anoBaseNessinha) + " anos");
+
+</script>
